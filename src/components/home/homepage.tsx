@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaPlayCircle, FaHeadphones } from 'react-icons/fa';
+import Gallery from './Gallery';
 
 const Homepage: React.FC = () => {
   return (
