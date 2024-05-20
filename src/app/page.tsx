@@ -1,12 +1,14 @@
 import HomePage from "@/components/home/homepage";
 import Segundahome from "@/components/home/segundapage";
+import Servicos from "@/components/home/servicos";
 
 export default function Home() {
   return (
-    <main className="h-screen">
-      <div className="h-screen">
+    <main>
+      <div>
         <HomePage />
         <Segundahome />
+        <Servicos />
       </div>
     </main>
   );

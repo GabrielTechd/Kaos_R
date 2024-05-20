@@ -12,7 +12,7 @@ const Homepage: React.FC = () => {
         {/* Título principal */}
         <h1 className="text-3xl md:text-5xl font-bold mb-4">Bem-vindo à Kaos Records</h1>
         {/* Descrição */}
-        <p className="text-lg md:text-xl mb-6">Sua fonte de música exclusiva.</p>
+        <p className="text-lg md:text-xl mb-6">Sua fonte de audio visual .</p>
         {/* Subtítulo */}
         <h2 className="text-4xl md:text-6xl font-bold mb-12">Experimente algo novo</h2>
 
