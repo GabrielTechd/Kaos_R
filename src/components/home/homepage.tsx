@@ -6,7 +6,7 @@ const Homepage: React.FC = () => {
   return (
     // Div principal que contém todo o conteúdo da página
     <div className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
-      
+
       {/* Conteúdo */}
       <div className="absolute z-10 text-white text-center">
         {/* Título principal */}
@@ -15,7 +15,7 @@ const Homepage: React.FC = () => {
         <p className="text-lg md:text-xl mb-6">Sua fonte de música exclusiva.</p>
         {/* Subtítulo */}
         <h2 className="text-4xl md:text-6xl font-bold mb-12">Experimente algo novo</h2>
-        
+
         {/* Botões */}
         <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
           {/* Botão Ver Catálogo */}
@@ -28,7 +28,7 @@ const Homepage: React.FC = () => {
           </button>
         </div>
       </div>
-      
+
       {/* Sobreposição de texto no vídeo */}
       <div className="absolute inset-0 overflow-hidden flex items-center justify-center">
         {/* Vídeo de fundo */}
@@ -36,6 +36,7 @@ const Homepage: React.FC = () => {
           <source src="/AninKaos.mp4" type="video/mp4" />
           Desculpe, seu navegador não suporta vídeos HTML5.
         </video>
+
       </div>
     </div>
   );

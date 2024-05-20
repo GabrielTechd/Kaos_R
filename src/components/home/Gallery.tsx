@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 const Gallery: React.FC = () => {
   const images = [
@@ -19,7 +20,9 @@ const Gallery: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
         {images.map((image, index) => (
           <div key={index} className="relative group overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105">
-            <img src={image.src} alt={image.alt} className="w-80 h-80 md:w-96 md:h-96 object-cover"/>
+            <div className="w-80 h-80 md:w-96 md:h-96 relative rounded-lg overflow-hidden">
+              <Image src={image.src} alt={image.alt} layout="fill" objectFit="cover" className="rounded-lg" />
+            </div>
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
               <p className="text-center text-white text-lg font-semibold">{image.description}</p>
             </div>

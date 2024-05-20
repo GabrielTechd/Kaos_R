@@ -1,6 +1,5 @@
 import HomePage from "@/components/home/homepage";
 import Segundahome from "@/components/home/segundapage";
-import Image from "next/image";
 
 export default function Home() {
   return (
