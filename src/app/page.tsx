@@ -6,7 +6,6 @@ export default function Home() {
     <main className="h-screen">
       <div className="h-screen">
         <HomePage />
-        <Segundahome />
       </div>
     </main>
   );
